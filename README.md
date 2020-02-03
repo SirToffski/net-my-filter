@@ -10,11 +10,14 @@ There are two types of server rules:
 
 The script may evolve with time, though at the moment it's quite simple. We are not going to pipe to bash and will instead clone the repo.
 
-```
+```bash
 $ git clone https://github.com/SirToffski/net-my-filter.git # (1) clone the repo
 $ cd net-my-filter # (2) cd into the cloned repo
 $ sudo bash nf_gen.sh [OPTION]
----------------------------------
+```
+```
+  Usage: gen_nf_tables.sh [OPTION]
+
   -n, --novpn        writes nftables for a machine without a VPN server
   -v, --vpn          writes nftables for a machine hosting a VPN server
   -h, --help         print this message
