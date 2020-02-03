@@ -13,7 +13,7 @@ The script may evolve with time, though at the moment it's quite simple. We are 
 ```bash
 $ git clone https://github.com/SirToffski/net-my-filter.git # (1) clone the repo
 $ cd net-my-filter # (2) cd into the cloned repo
-$ sudo bash nf_gen.sh [OPTION]
+$ sudo bash nf_gen.sh [OPTION] # (3) run the script
 ```
 ```
   Usage: gen_nf_tables.sh [OPTION]
